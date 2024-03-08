@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(229, 231, 235);
+}
+
+#links > ul {
+  display: flex;
+  gap: 30px;
+}
+
+main {
+  padding: 3% 8%;
+  background-color: rgb(249, 250, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1 {
+  font: inherit;
+  font-size: 30px;
+  padding: 2.2rem 1.2rem;
+  font-weight: 600;
+}
+
+.card {
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 770px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.section {
+  width: 100%;
+  max-width: 770px;
+  display: flex;
+  justify-content: space-between;
+  padding: 44px;
+  border-bottom: 1px solid rgb(229, 231, 235);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.resume {
+  border: 2px solid rgb(224, 226, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px 24px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+h2 {
+  font: inherit;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+h3 {
+  font: inherit;
+  font-size: 18px;
+}
+
+.button2 {
+  background-color: rgb(229, 231, 235);
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.have-a-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem 4rem;
+}
+
+.button3 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 231, 235);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  /* margin: 2rem 1.2rem; */
+  color:rgb(97, 104, 112);
+  cursor: pointer;
+}
+
+.support {
+  width: 100vw;
+  background-color: rgb(243, 244, 246);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.buttons-paths {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.button4 {
+  background-color: rgb(53, 116, 110);
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  /* margin: 2rem 1.2rem; */
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(249, 250, 251);
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(108 , 114, 127);
+}
+
+.projects {
+  font-size: 18px;
+  color: rgb(97, 104, 112);
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.desc {
+  padding: 24px;
+  border-top: 1px solid rgb(229, 231, 235);
+  margin-top: 2.5rem;
+  color: rgb(108, 114, 127);
+  line-height: 2;
+}
+
+.path-heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cards {
+  width: 100%;
+  max-width: 770px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards > .card {
+  margin: 2rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.support-us-p {
+  text-align: center;
+  max-width: 65ch;
+  color: rgb(108, 114, 127);
+  margin-bottom: 2.5rem;
+}
+
+.faq {
+  background-color: rgb(243, 244, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 3.5rem;
+  margin-bottom: 4.2rem;
+}
+
+.query {
+  max-width: 68ch;
+}
+
+.question {
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.answer {
+  color: #374151;
+  margin-bottom: 20px;
+}
